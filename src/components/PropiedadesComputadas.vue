@@ -45,10 +45,10 @@ const classBgAddButton = computed(() => {
 </script>
 
 <template>
-  <div class="container">
+  <div class="text-center">
     <h1>{{ name }}</h1>
     <!-- Con :class se puede hacer la clase de css dinamica -->
-    <h2 class="text-6xl" :class="classCounter">{{ counter }}</h2>
+    <h2 class="text-6xl " :class="classCounter">{{ counter }}</h2>
     <div class="buttons">
       <!-- En Vue, el símbolo "@" se utiliza para escuchar eventos en los elementos del DOM. En el código que has proporcionado, el símbolo "@" se utiliza para vincular el evento "click" a los botones.-->
       <button class="bg-green-500 text-white rounded-xl" @click="increment">
